@@ -16,6 +16,7 @@
     "@google/generative-ai": "latest",
     "lucide-react": "latest",
     "tailwindcss": "latest",
+    "@tailwindcss/postcss": "latest",
     "postcss": "latest",
     "autoprefixer": "latest"
   }
