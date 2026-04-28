@@ -1,14 +1,12 @@
 import './globals.css'
 
-export const metadata = {
-  title: 'ChefScript',
-  description: 'Scale your kitchen via WhatsApp',
-}
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <head>
+        <script src="https://cdn.tailwindcss.com"></script>
+      </head>
+      <body className="bg-slate-50">{children}</body>
     </html>
-  )
+  );
 }
