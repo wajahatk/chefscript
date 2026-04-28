@@ -5,19 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "start": "next start"
   },
   "dependencies": {
     "next": "latest",
     "react": "latest",
     "react-dom": "latest",
-    "@supabase/supabase-js": "latest",
-    "@google/generative-ai": "latest",
-    "lucide-react": "latest",
     "tailwindcss": "latest",
     "@tailwindcss/postcss": "latest",
-    "postcss": "latest",
-    "autoprefixer": "latest"
+    "lucide-react": "latest",
+    "@supabase/supabase-js": "latest",
+    "@google/generative-ai": "latest"
   }
 }
